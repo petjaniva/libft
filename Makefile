@@ -6,7 +6,7 @@
 #    By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/05 14:30:45 by pniva             #+#    #+#              #
-#    Updated: 2021/12/06 09:56:20 by pniva            ###   ########.fr        #
+#    Updated: 2021/12/10 12:31:25 by pniva            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -80,12 +80,14 @@ NAME = libft.a
 
 CC = gcc
 
-CFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra -I
+
+INCLUDES = includes/
 
 all: $(NAME)
 
 $(NAME):
-		$(CC) $(CFLAGS) -c $(SRCS)
+		$(CC) $(CFLAGS) $(INCLUDES) -c $(SRCS)
 		ar rc $(NAME) $(OBJS)
 
 clean:
