@@ -6,12 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 12:44:36 by pniva             #+#    #+#             */
-/*   Updated: 2021/12/02 08:38:06 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:42:24 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static size_t	count_words(char const *s, char c)
 {

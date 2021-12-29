@@ -6,12 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 17:49:49 by pniva             #+#    #+#             */
-/*   Updated: 2021/11/15 12:32:54 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:39:51 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 void	*ft_memalloc(size_t size)
 {

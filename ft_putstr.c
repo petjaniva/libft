@@ -6,12 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 06:34:25 by pniva             #+#    #+#             */
-/*   Updated: 2021/11/14 13:49:27 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:41:09 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 void	ft_putstr(char const *s)
 {

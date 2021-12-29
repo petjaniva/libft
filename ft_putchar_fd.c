@@ -6,11 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 06:51:58 by pniva             #+#    #+#             */
-/*   Updated: 2021/11/04 09:48:06 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:48:26 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putchar_fd(char c, int fd)
 {

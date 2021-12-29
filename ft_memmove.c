@@ -6,12 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 13:16:42 by pniva             #+#    #+#             */
-/*   Updated: 2021/11/09 10:41:24 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:40:16 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

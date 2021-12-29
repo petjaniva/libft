@@ -6,12 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 14:22:09 by pniva             #+#    #+#             */
-/*   Updated: 2021/12/02 08:37:02 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:38:24 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static int	check_negativity(int *n)
 {

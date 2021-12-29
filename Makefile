@@ -6,7 +6,7 @@
 #    By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/05 14:30:45 by pniva             #+#    #+#              #
-#    Updated: 2021/12/10 12:31:25 by pniva            ###   ########.fr        #
+#    Updated: 2021/12/29 11:04:58 by pniva            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -72,7 +72,9 @@ SRCS =	ft_memset.c \
 		ft_count_digits.c \
 		ft_isspace.c \
 		ft_lstadd_back.c \
-		ft_reverse_str.c
+		ft_reverse_str.c \
+		ft_get_next_line.c \
+		ft_realloc.c
 
 OBJS = $(SRCS:.c=.o)
 

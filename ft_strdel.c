@@ -6,12 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 07:22:28 by pniva             #+#    #+#             */
-/*   Updated: 2021/11/15 12:35:42 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:41:34 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 void	ft_strdel(char **as)
 {

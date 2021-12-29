@@ -6,12 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 17:56:55 by pniva             #+#    #+#             */
-/*   Updated: 2021/11/15 12:34:05 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:40:03 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 void	ft_memdel(void **ap)
 {

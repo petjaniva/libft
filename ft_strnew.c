@@ -6,12 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 18:07:29 by pniva             #+#    #+#             */
-/*   Updated: 2021/11/18 10:23:53 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:42:05 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 char	*ft_strnew(size_t size)
 {

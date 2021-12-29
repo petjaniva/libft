@@ -6,12 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 11:50:55 by pniva             #+#    #+#             */
-/*   Updated: 2021/12/01 14:50:09 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:42:39 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static int	is_trim(char c)
 {

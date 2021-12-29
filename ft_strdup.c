@@ -6,12 +6,11 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 09:42:32 by pniva             #+#    #+#             */
-/*   Updated: 2021/11/08 13:00:48 by pniva            ###   ########.fr       */
+/*   Updated: 2021/12/29 10:41:47 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 char	*ft_strdup(const char *s)
 {
