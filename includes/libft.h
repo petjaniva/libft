@@ -6,7 +6,7 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 10:20:09 by pniva             #+#    #+#             */
-/*   Updated: 2021/12/29 11:04:30 by pniva            ###   ########.fr       */
+/*   Updated: 2022/01/04 13:40:22 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,6 +91,6 @@ void	ft_reverse_str(char *str, size_t len);
 size_t	ft_count_digits(int n);
 void	ft_lstadd_back(t_list *head, t_list *elem_to_add);
 int		ft_get_next_line(int fd, char **line);
-size_t ft_realloc(void **ptr, size_t old_size, size_t new_size);
+size_t	ft_realloc(void **ptr, size_t old_size, size_t new_size);
 
 #endif
