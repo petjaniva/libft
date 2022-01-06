@@ -6,7 +6,7 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 09:18:15 by pniva             #+#    #+#             */
-/*   Updated: 2021/12/29 10:48:44 by pniva            ###   ########.fr       */
+/*   Updated: 2022/01/06 09:19:29 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,7 @@ static int	read_to_memory(const int fd, char **memory)
 	return (cleanup(memory, &buffer, read_res));
 }
 
-int	get_next_line(const int fd, char **line)
+int	ft_get_next_line(const int fd, char **line)
 {
 	static char	*memory[MAX_FD];
 	int			read_success;
