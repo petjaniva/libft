@@ -1,20 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_abs.c                                           :+:      :+:    :+:   */
+/*   ft_isnumber.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/20 10:52:28 by pniva             #+#    #+#             */
-/*   Updated: 2022/01/23 09:30:46 by pniva            ###   ########.fr       */
+/*   Created: 2022/01/23 08:51:57 by pniva             #+#    #+#             */
+/*   Updated: 2022/01/23 09:33:45 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_abs(int num)
+#include "libft.h"
+
+int	ft_isnumber(char *str)
 {
-	if (num < 0)
+	int	i;
+
+	i = 0;
+	if (str[i] == '-' || str[i] == '+')
+		++i;
+	while (str[i])
 	{
-		num *= -1;
+		if (!ft_isdigit(str[i]))
+			return (0);
+		++i;
 	}
-	return (num);
+	return (1);
 }

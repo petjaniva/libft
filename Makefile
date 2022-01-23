@@ -6,7 +6,7 @@
 #    By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/05 14:30:45 by pniva             #+#    #+#              #
-#    Updated: 2022/01/20 11:10:08 by pniva            ###   ########.fr        #
+#    Updated: 2022/01/23 09:10:57 by pniva            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,7 +76,8 @@ SRCS =	ft_memset.c \
 		ft_get_next_line.c \
 		ft_realloc.c \
 		ft_abs.c \
-		ft_strnewarray.c
+		ft_strnewarray.c \
+		ft_isnumber.c
 
 OBJS = $(SRCS:.c=.o)
 
