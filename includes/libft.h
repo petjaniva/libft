@@ -6,7 +6,7 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 10:20:09 by pniva             #+#    #+#             */
-/*   Updated: 2022/05/03 10:19:00 by pniva            ###   ########.fr       */
+/*   Updated: 2022/05/03 11:01:41 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,5 +96,6 @@ int		ft_abs(int num);
 char	**ft_strnewarray(int pointers, int chars);
 int		ft_isnumber(char *str);
 void	ft_intswap(int *a, int *b);
+void	ft_quicksort(int *array, int low, int high);
 
 #endif
