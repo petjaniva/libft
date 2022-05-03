@@ -6,9 +6,12 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 10:20:04 by pniva             #+#    #+#             */
-/*   Updated: 2022/05/03 11:00:07 by pniva            ###   ########.fr       */
+/*   Updated: 2022/05/03 12:02:32 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//an implemention of quicksort algorithm for int arrays
+//with starting the pivot from the last index of the array
 
 #include "libft.h"
 
