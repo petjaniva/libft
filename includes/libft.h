@@ -6,7 +6,7 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 10:20:09 by pniva             #+#    #+#             */
-/*   Updated: 2022/01/23 09:36:14 by pniva            ###   ########.fr       */
+/*   Updated: 2022/05/03 10:17:26 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,5 +95,6 @@ size_t	ft_realloc(void **ptr, size_t old_size, size_t new_size);
 int		ft_abs(int num);
 char	**strnewarray(int pointers, int chars);
 int		ft_isnumber(char *str);
+void	ft_intswap(int *a, int *b);
 
 #endif
