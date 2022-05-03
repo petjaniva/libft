@@ -6,7 +6,7 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 10:20:09 by pniva             #+#    #+#             */
-/*   Updated: 2022/05/03 10:17:26 by pniva            ###   ########.fr       */
+/*   Updated: 2022/05/03 10:19:00 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,7 +93,7 @@ void	ft_lstadd_back(t_list *head, t_list *elem_to_add);
 int		ft_get_next_line(int fd, char **line);
 size_t	ft_realloc(void **ptr, size_t old_size, size_t new_size);
 int		ft_abs(int num);
-char	**strnewarray(int pointers, int chars);
+char	**ft_strnewarray(int pointers, int chars);
 int		ft_isnumber(char *str);
 void	ft_intswap(int *a, int *b);
 

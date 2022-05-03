@@ -6,13 +6,13 @@
 /*   By: pniva <pniva@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/20 11:09:32 by pniva             #+#    #+#             */
-/*   Updated: 2022/01/20 11:11:09 by pniva            ###   ########.fr       */
+/*   Updated: 2022/05/03 10:19:22 by pniva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	**strnewarray(int pointers, int chars)
+char	**ft_strnewarray(int pointers, int chars)
 {
 	char	**array;
 	int		i;
